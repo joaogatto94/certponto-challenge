@@ -1,0 +1,16 @@
+<div class="d-flex flex-column">
+  <h3 *ngIf="voteDate">
+    Vote para o dia {{voteDate | date: 'dd/MM/yyyy'}}
+  </h3>
+
+  <mat-radio-group [(ngModel)]="restaurantId">
+    <mat-radio-button [value]="restaurant.restaurantId" *ngFor="let restaurant of restaurants" [disabled]="weekWinners[restaurant.restaurantId]">{{restaurant.name}}</mat-radio-button>
+  </mat-radio-group>
+
+  <mat-form-field [appearance]="'outline'">
+    <mat-label>Identificador</mat-label>
+    <input matInput placeholder="Seu identificador" [(ngModel)]="identifier">
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" [disabled]="loading" (click)="vote()">Votar</button>
+</div>

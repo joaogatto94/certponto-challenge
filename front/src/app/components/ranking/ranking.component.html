@@ -1,0 +1,8 @@
+<h3>Ranking de hoje</h3>
+<div class="d-flex flex-column" *ngFor="let restaurant of restaurants">
+  <div class="d-flex justify-content-between">
+    <span>{{restaurant.name}}</span>
+    <span>{{restaurant.votes}} Voto(s)</span>
+  </div>
+  <progress style="width: 100%;" [value]="restaurant.votes" [max]="maxVotes$ | async">  </progress>
+</div>
