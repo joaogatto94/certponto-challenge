@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adm\\Documents\\GitHub\\certponto\\back\\back.csproj": {}
+    "c:\\Users\\Adm\\Documents\\GitHub\\certponto-challenge\\back\\back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adm\\Documents\\GitHub\\certponto\\back\\back.csproj": {
+    "c:\\Users\\Adm\\Documents\\GitHub\\certponto-challenge\\back\\back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adm\\Documents\\GitHub\\certponto\\back\\back.csproj",
+        "projectUniqueName": "c:\\Users\\Adm\\Documents\\GitHub\\certponto-challenge\\back\\back.csproj",
         "projectName": "back",
-        "projectPath": "C:\\Users\\Adm\\Documents\\GitHub\\certponto\\back\\back.csproj",
+        "projectPath": "c:\\Users\\Adm\\Documents\\GitHub\\certponto-challenge\\back\\back.csproj",
         "packagesPath": "C:\\Users\\Adm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adm\\Documents\\GitHub\\certponto\\back\\obj\\",
+        "outputPath": "c:\\Users\\Adm\\Documents\\GitHub\\certponto-challenge\\back\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
